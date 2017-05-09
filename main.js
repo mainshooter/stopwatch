@@ -31,7 +31,6 @@ function converter() {
 }
 
 function startStopwatch() {
-  console.log("RUN");
   repeater = setInterval(startTimer, 10);
 }
 
