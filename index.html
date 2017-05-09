@@ -3,11 +3,24 @@
   <head>
     <meta charset="UTF-8">
     <title>Stopwatch</title>
-  <link rel="stylesheet" href="stylesheet.css" type="text/css">
+  <link rel="stylesheet" href="style.css" type="text/css">
   </head>
   <body>
-    <div id="stopwatch"></div>
+    <div>
+      <div class="stopwatch" id="hours">00</div>
+      <div class="stopwatch">:</div>
+      <div class="stopwatch" id="minuuts">00</div>
+      <div class="stopwatch">:</div>
+      <div class="stopwatch" id="seconds">00</div>
+      <div class="stopwatch">:</div>
+      <div class="stopwatch" id="miliseconds">000</div>
+    </div>
+    <br />
     <button type="button" id="start">START</button>
+    <br />
+    <button type="button" id="end">END</button>
+    <br />
+    <button type="button" id="reset">RESET</button>
     <script src="main.js"></script>
   </body>
 </html>
