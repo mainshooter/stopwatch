@@ -71,7 +71,6 @@ function startStopwatch() {
   repeater = setInterval(startTimer, 1);
 }
 
-
 function displayHours() {
   if (getHours().toString().length == 1) {
     document.getElementById("hours").innerHTML = "0" + getHours();
