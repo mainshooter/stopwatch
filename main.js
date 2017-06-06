@@ -1,5 +1,3 @@
-var stopwatch = document.getElementById('stopwatch');
-
 document.getElementById("start").addEventListener("click", startStopwatch);
 document.getElementById("end").addEventListener("click", endStopwatch);
 document.getElementById("reset").addEventListener("click", resetStopwatch);
